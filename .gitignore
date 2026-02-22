@@ -1,0 +1,34 @@
+# Backend dependencies
+backend/node_modules/
+backend/.env
+backend/.DS_Store
+backend/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# World files (if testing locally)
+worlds/
+*.lock
+
+# Temporary files
+temp/
+tmp/
+*.bak
+*.tmp
+
+# Environment variables
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/

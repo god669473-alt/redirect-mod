@@ -1,0 +1,33 @@
+{
+  "title": "Bedrock Redirect Mod",
+  "description": "Automatic server redirect system for Bedrock Dedicated Server",
+  "format_version": "1.0.0",
+  "server": {
+    "redirectServerIP": "YOUR_SERVER_IP",
+    "redirectServerPort": 19132
+  },
+  "backend": {
+    "url": "http://localhost:3000",
+    "port": 3000
+  },
+  "features": {
+    "autoInvite": true,
+    "xboxMessageTrigger": true,
+    "autoRedirect": true,
+    "loggingEnabled": true
+  },
+  "configuration": {
+    "inviteTriggerKeywords": [
+      "invite",
+      "join",
+      "inv",
+      "redirect",
+      "connect",
+      "!invite",
+      "!join"
+    ],
+    "maxPendingInvites": 100,
+    "inviteExpiryMs": 300000,
+    "redirectDelayTicks": 20
+  }
+}
